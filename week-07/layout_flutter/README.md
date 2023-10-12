@@ -253,6 +253,6 @@ Pada langkah terakhir ini, atur semua elemen dalam ListView, bukan Column, karen
 
 2. Silakan implementasikan di project baru "basic_layout_flutter" dengan mengakses sumber ini: [https://docs.flutter.dev/codelabs/layout-basics](https://docs.flutter.dev/codelabs/layout-basics)
 
-![screenshot Tugas]()
+![screenshot Tugas](../layout_flutter/images/hasilOutput.jpg)
 
 3. Kumpulkan link commit repository GitHub Anda ke spreadsheet yang telah disediakan!
