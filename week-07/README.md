@@ -4,7 +4,7 @@
 
 Buatlah sebuah project flutter baru dengan nama layout_flutter. Atau sesuaikan style laporan praktikum yang Anda buat.
 
-![screenshot Praktikum 1 Langkah 1](../layout_flutter/docs/prk1_langkah1.png)
+![screenshot Praktikum 1 Langkah 1](./docs/prk1_langkah1.png)
 
 # Langkah 2: Buka file lib/main.dart
 
@@ -33,7 +33,7 @@ Buka file main.dart lalu ganti dengan kode berikut. Isi nama dan NIM Anda di tex
         }
         }
 
-![screenshot Praktikum 1 langkah 2](../layout_flutter/docs/prk1_langkah2.png)
+![screenshot Praktikum 1 langkah 2](./docs/prk1_langkah2.png)
 
 # Langkah 3: Identifikasi layout diagram
 
@@ -47,15 +47,15 @@ Langkah pertama adalah memecah tata letak menjadi elemen dasarnya:
 
 Pertama, identifikasi elemen yang lebih besar. Dalam contoh ini, empat elemen disusun menjadi sebuah kolom: sebuah gambar, dua baris, dan satu blok teks.
 
-![screenshot hello_world](../layout_flutter/docs/prk1_langkah3.png)
+![screenshot hello_world](./docs/prk1_langkah3.png)
 
 Selanjutnya, buat diagram setiap baris. Baris pertama, disebut bagian Judul, memiliki 3 anak: kolom teks, ikon bintang, dan angka. Anak pertamanya, kolom, berisi 2 baris teks. Kolom pertama itu memakan banyak ruang, sehingga harus dibungkus dengan widget yang Diperluas.
 
-![screenshot hello_world](../layout_flutter/docs/prk1_langkah3_2.png)
+![screenshot hello_world](./docs/prk1_langkah3_2.png)
 
 Baris kedua, disebut bagian Tombol, juga memiliki 3 anak: setiap anak merupakan kolom yang berisi ikon dan teks.
 
-![screenshot hello_world](../layout_flutter/docs/prk1_langkah3_3.png)
+![screenshot hello_world](./docs/prk1_langkah3_3.png)
 
 Setelah tata letak telah dibuat diagramnya, cara termudah adalah dengan menerapkan pendekatan bottom-up. Untuk meminimalkan kebingungan visual dari kode tata letak yang banyak bertumpuk, tempatkan beberapa implementasi dalam variabel dan fungsi.
 
@@ -99,27 +99,27 @@ Pertama, Anda akan membuat kolom bagian kiri pada judul. Tambahkan kode berikut 
     ),
     );
 
-![screenshot Praktikum 1 langkah 4](../layout_flutter/docs/prk1_langkah4.png)
+![screenshot Praktikum 1 langkah 4](./docs/prk1_langkah4.png)
 
 # Soal 1
 
 Letakkan widget Column di dalam widget Expanded agar menyesuaikan ruang yang tersisa di dalam widget Row. Tambahkan properti crossAxisAlignment ke CrossAxisAlignment.start sehingga posisi kolom berada di awal baris.
 
-![screenshot Soal 1](../layout_flutter/docs/prk1_soal1.png)
+![screenshot Soal 1](./docs/prk1_soal1.png)
 
 # Soal 2
 
 Letakkan baris pertama teks di dalam Container sehingga memungkinkan Anda untuk menambahkan padding = 8. Teks ‘Batu, Malang, Indonesia' di dalam Column, set warna menjadi abu-abu.
 
-![screenshot Soal 2](../layout_flutter/docs/prk1_soal2.png)
+![screenshot Soal 2](./docs/prk1_soal2.png)
 
 # Soal 3
 
 Dua item terakhir di baris judul adalah ikon bintang, set dengan warna merah, dan teks "41". Seluruh baris ada di dalam Container dan beri padding di sepanjang setiap tepinya sebesar 32 piksel. Kemudian ganti isi body text ‘Hello World' dengan variabel titleSection seperti berikut:
 
-![screenshot Soal 3](../layout_flutter/docs/prk1_soal3.png)
+![screenshot Soal 3](./docs/prk1_soal3.png)
 
-![screenshot Soal 3](../layout_flutter/docs/prk1_soal3_1.png)
+![screenshot Soal 3](./docs/prk1_soal3_1.png)
 
 # Praktikum 2: Implementasi button row
 
@@ -161,7 +161,7 @@ lib/main.dart (\_buildButtonColumn)
     }
     }
 
-![screenshot Praktikum 2 langkah 1](../layout_flutter/docs/prk2_langkah1.png)
+![screenshot Praktikum 2 langkah 1](./docs/prk2_langkah1.png)
 
 # Langkah 2: Buat widget buttonSection
 
@@ -182,13 +182,13 @@ lib/main.dart (buttonSection)
     ],
     );
 
-![screenshot Praktikum 2 langkah 2](../layout_flutter/docs/prk2_langkah2.png)
+![screenshot Praktikum 2 langkah 2](./docs/prk2_langkah2.png)
 
 # Langkah 3: Tambah button section ke body
 
 Tambahkan variabel buttonSection ke dalam body seperti berikut:
 
-![screenshot Praktikum 2 langkah 3](../layout_flutter/docs/prk2_langkah3.png)
+![screenshot Praktikum 2 langkah 3](./docs/prk2_langkah3.png)
 
 # Praktikum 3: Implementasi text section
 
@@ -209,7 +209,7 @@ Tentukan bagian teks sebagai variabel. Masukkan teks ke dalam Container dan tamb
     ),
     );
 
-![screenshot Praktikum 3 langkah 1](../layout_flutter/docs/prk3_langkah1.png)
+![screenshot Praktikum 3 langkah 1](./docs/prk3_langkah1.png)
 
 Dengan memberi nilai softWrap = true, baris teks akan memenuhi lebar kolom sebelum membungkusnya pada batas kata.
 
@@ -217,7 +217,7 @@ Dengan memberi nilai softWrap = true, baris teks akan memenuhi lebar kolom sebel
 
 Tambahkan widget variabel textSection ke dalam body seperti berikut:
 
-![screenshot Praktikum 3 langkah 2](../layout_flutter/docs/prk3_langkah2.png)
+![screenshot Praktikum 3 langkah 2](./docs/prk3_langkah2.png)
 
 # Praktikum 4: Implementasi image section
 
@@ -225,7 +225,7 @@ Tambahkan widget variabel textSection ke dalam body seperti berikut:
 
 Anda dapat mencari gambar di internet yang ingin ditampilkan. Buatlah folder images di root project layout_flutter. Masukkan file gambar tersebut ke folder images, lalu set nama file tersebut ke file pubspec.yaml seperti berikut:
 
-![screenshot Praktikum 4 langkah 1](../layout_flutter/docs/prk4_langkah1.png)
+![screenshot Praktikum 4 langkah 1](./docs/prk4_langkah1.png)
 
 Contoh nama file gambar di atas adalah lake.jpg
 
@@ -233,7 +233,7 @@ Contoh nama file gambar di atas adalah lake.jpg
 
 Tambahkan aset gambar ke dalam body seperti berikut:
 
-![screenshot Praktikum 4 langkah 2](../layout_flutter/docs/prk4_langkah2.png)
+![screenshot Praktikum 4 langkah 2](./docs/prk4_langkah2.png)
 
 BoxFit.cover memberi tahu kerangka kerja bahwa gambar harus sekecil mungkin tetapi menutupi seluruh kotak rendernya.
 
@@ -241,11 +241,11 @@ BoxFit.cover memberi tahu kerangka kerja bahwa gambar harus sekecil mungkin teta
 
 Pada langkah terakhir ini, atur semua elemen dalam ListView, bukan Column, karena ListView mendukung scroll yang dinamis saat aplikasi dijalankan pada perangkat yang resolusinya lebih kecil.
 
-![screenshot Praktikum 4 langkah 3](../layout_flutter/docs/prk4_langkah3.png)
+![screenshot Praktikum 4 langkah 3](./docs/prk4_langkah3.png)
 
 **Hasil Outputnya :**
 
-![screenshot Praktikum 4 langkah 3](../layout_flutter/docs/output.png)
+![screenshot Praktikum 4 langkah 3](./docs/output.png)
 
 # Tugas Praktikum
 
@@ -253,6 +253,6 @@ Pada langkah terakhir ini, atur semua elemen dalam ListView, bukan Column, karen
 
 2. Silakan implementasikan di project baru "basic_layout_flutter" dengan mengakses sumber ini: [https://docs.flutter.dev/codelabs/layout-basics](https://docs.flutter.dev/codelabs/layout-basics)
 
-![screenshot Tugas](../layout_flutter/images/hasilOutput.jpg)
+![screenshot Tugas](./docs/hasilOutput.jpg)
 
 3. Kumpulkan link commit repository GitHub Anda ke spreadsheet yang telah disediakan!
