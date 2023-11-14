@@ -40,3 +40,29 @@
 
 <br>
 <br>
+
+# Praktikum 2 : InheritedWidget
+
+### 1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil akhir praktikum beserta penjelasannya di file README.md!
+
+> Selesai ✅
+
+### 2. Jelaskan mana yang dimaksud InheritedWidget pada langkah 1 tersebut! Mengapa yang digunakan InheritedNotifier?
+
+> Pada langkah 1, `InheritedWidget` digunakan untuk memungkinkan berbagi data dengan widget lain dalam subtree tanpa melewatkan data secara eksplisit. `InheritedNotifier` adalah salah satu jenis `InheritedWidget` yang juga memberikan notifikasi perubahan, sehingga widget lain dapat tahu ketika data berubah. Dalam kasus ini, `PlanProvider` menggunakan `InheritedNotifier` untuk berperan sebagai penyedia data `Plan` yang dapat diakses oleh widget lain dalam aplikasi.
+
+### 3. Jelaskan maksud dari method di langkah 3 pada praktikum tersebut! Mengapa dilakukan demikian?
+
+> Method `completedCount` digunakan untuk menghitung jumlah tugas yang telah selesai dalam rencana, sedangkan method `completenessMessage` menghasilkan pesan yang menginformasikan sejauh mana rencana telah diselesaikan dengan menggabungkan jumlah tugas yang telah selesai dan total jumlah tugas dalam rencana. Ini membantu memberikan informasi visual tentang kemajuan rencana kepada pengguna.
+
+### 4. Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
+
+- Hasil Akhir Praktikum 2
+
+> ![Praktikum 2](./docs/praktikum2.gif)
+
+- Penjelasan : Otuput dari Praktikum 2 ini sebenarnya sama seperti Praktikum 1 yaitu untuk membuat list penjadwalan, akan tetapi berbeda dalam metode pendekatan yang digunakan.
+---
+
+<br>
+<br>
