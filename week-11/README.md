@@ -66,3 +66,23 @@
 
 <br>
 <br>
+
+# Praktikum 3 : State di Multiple Screens
+
+### 1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil akhir praktikum beserta penjelasannya di file README.md!
+
+> Selesai 
+
+### 2. Berdasarkan Praktikum 3 yang telah Anda lakukan, jelaskan maksud dari gambar diagram berikut ini!
+
+![soal](https://jti-polinema.github.io/flutter-codelab/11-basic-state/img//9ce81bcd2817adc8.png)
+> Alur navigasi tersebut dimulai dengan `MaterialApp` sebagai root aplikasi. Kemudian, `PlanProvider` digunakan untuk berbagi data rencana ke seluruh aplikasi. Dari sana, navigasi dilakukan dari `PlanCreatorScreen` (untuk membuat atau mengedit rencana) ke `PlanScreen` (untuk melihat daftar rencana). `Column` dan `Expanded` digunakan untuk mengatur elemen dalam tampilan. `Scaffold` memberikan kerangka tampilan aplikasi, dan `SafeArea` memastikan tampilan aman pada berbagai perangkat.
+
+### 3. Lakukan capture hasil dari Langkah 14 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
+
+- Hasil Akhir Praktikum 3
+
+> ![Praktikum 3](./docs/praktikum3.gif)
+
+- Penjelasan : Output dari Praktikum 3 tersebut adalah membuat penjadwalan yang didalamnya bisa menambahkan sub bagan.
+---
