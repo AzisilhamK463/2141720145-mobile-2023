@@ -172,3 +172,19 @@
 
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 16".
 > Selesai.
+
+## Praktikum 9
+
+### Hasil Praktikum 9
+
+> ![Hasil Praktikum 9](./docs/hasil%20praktikum%209.gif)
+
+**Soal 17**
+- Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+> Warna latar belakang layar akan berubah ketika Anda menekan tombol "Change Color" dan memilih warna dalam dialog. Ini terjadi karena nilai warna telah diubah dalam fungsi _showColorDialog dan kemudian widget diperbarui dengan menggunakan setState. Tindakan ini akan memicu pembangunan ulang widget dan menampilkan perubahan warna yang telah Anda pilih pada layar.
+
+- Gantilah 3 warna pada langkah 3 dengan warna favorit Anda!
+> Selesai.
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 17".
+> Selesai.
