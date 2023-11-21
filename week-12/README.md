@@ -8,7 +8,7 @@
 
 ### Hasil Praktikum 1
 
-> > ![Hasil Praktikum 1](./docs/hasil%20praktikum%201.gif)
+> ![Hasil Praktikum 1](./docs/hasil%20praktikum%201.gif)
 
 **Soal 1**
 - Tambahkan nama panggilan Anda pada title app sebagai identitas hasil pekerjaan Anda.
