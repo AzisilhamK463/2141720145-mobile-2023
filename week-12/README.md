@@ -130,7 +130,25 @@
 
 ### Hasil Praktikum 7
 
+> ![Hasil Praktikum 7](./docs/hasil%20praktikum%207.gif)
 
+**Soal 13**
+- Apakah ada perbedaan UI dengan praktikum sebelumnya? Mengapa demikian?
+> menampilkan koordinat Geolokasi dengan layout yang sama karena keduanya mengambil lokasi pengguna saat aplikasi dimulai.
+
+> Variabel state myPosition diperbarui dengan setState, dan FutureBuilder mengelola pembaruan UI secara otomatis. Namun, pada akhirnya, hasil tampilan UI sama karena keduanya memiliki penundaan 3 detik.
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 13".
+> Selesai.
+
+- Seperti yang Anda lihat, menggunakan FutureBuilder lebih efisien, clean, dan reactive dengan Future bersama UI.
+
+**Soal 14**
+- Apakah ada perbedaan UI dengan langkah sebelumnya? Mengapa demikian?
+> tidak mengubah tampilan antarmuka pengguna karena langkah ini hanya memasukkan fungsi handleError() yang akan digunakan jika terjadi kesalahan.
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 14".
+> Selesai.
 
 ## Praktikum 8
 
