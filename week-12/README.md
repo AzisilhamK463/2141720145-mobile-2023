@@ -94,7 +94,17 @@
 
 ### Hasil Praktikum 5
 
+> ![Hasil Praktikum 5](./docs/hasil%20praktikum%205.gif)
 
+**Soal 9**
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 9".
+> Selesai.
+
+**Soal 10**
+- Panggil method handleError() tersebut di ElevatedButton, lalu run. Apa hasilnya? Jelaskan perbedaan kode langkah 1 dan 4!
+> Pada langkah 1, metode returnError() tidak menangani kesalahan. Jika terjadi kesalahan, metode tersebut akan berhenti dan tidak akan mengembalikan nilai apa pun.
+
+> Langkah 4 menangani kesalahan dengan try-catch-finally. Method handleError() mencoba menjalankan method returnError() pada try block, tetapi jika terjadi kesalahan, try block akan berhenti dan kesalahan akan ditangkap oleh catch block. Pada catch block, method handleError() menggunakan print() untuk menampilkan kesalahan ke layar. Blok selalu beroperasi pada akhirnya.
 
 ## Praktikum 6
 
