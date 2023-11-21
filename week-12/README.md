@@ -82,6 +82,13 @@
 
 > ![Hasil Praktikum 4](./docs/hasil%20praktikum%204.gif)
 
+**Soal 7**
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 7".
+> Selesai.
+
+**Soal 8**
+- Jelaskan maksud perbedaan kode langkah 1 dan 4!
+> pada penggunaan variabel futureGroup. Pada langkah pertama, variabel futureGroup disimpan, yang merupakan objek yang dapat digunakan untuk mengelompokkan berbagai future. Pada langkah keempat, variabel futureGroup digantikan oleh Future.wait(), yang merupakan fungsi yang dapat digunakan untuk menunggu beberapa future selesai dijalankan.
 
 ## Praktikum 5
 
