@@ -154,3 +154,21 @@
 
 ### Hasil Praktikum 8
 
+> ![Hasil Praktikum 8](./docs/hasil%20praktikum%208.gif)
+
+**Soal 15**
+- Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+> ![Soal 15](./docs/soal_15.png)
+
+- Silakan ganti dengan warna tema favorit Anda.
+> Selesai.
+
+**Soal 16**
+- Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+> tombol yang ditekan akan disesuaikan dengan warna widget ElevatedButton() di class navigation_second.dart karena setiap tombol memiliki fungsi Navigation.pop() dengan parameter konteks dan warna yang telah ditetapkan.
+
+- Gantilah 3 warna pada langkah 5 dengan warna favorit Anda!
+> Selesai.
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 16".
+> Selesai.
