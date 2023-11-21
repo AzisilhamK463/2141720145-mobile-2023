@@ -38,7 +38,21 @@
 
 ### Hasil Praktikum 2
 
+> ![Hasil Praktikum 1](./docs/hasil%20praktikum%202.gif)
 
+**Soal 4**
+- Jelaskan maksud kode langkah 1 dan 2 tersebut!
+
+> Kode Dart, yang terletak pada langkah pertama dari kode di atas, memiliki tiga fungsi return Async: returnOneAsync, returnTwoAsync, dan returnThreeAsync. Ketiga fungsi ini mengembalikan nilai int, dan Future.delayed() memperlambat eksekusi selama tiga detik. Masing-masing fungsi digambarkan sebagai berikut:
+   - returnOneAsync() Fungsi ini mengembalikan nilai 1 setelah 3 detik.
+   - returnTwoAsync() Fungsi ini mengembalikan nilai 2 setelah 3 detik.
+   - returnThreeAsync() Fungsi ini mengembalikan nilai 3 setelah 3 detik.
+
+> Fungsi returnOneAsync(), returnTwoAsync(), dan returnThreeAsync() digunakan untuk menghitung jumlah dari tiga fungsi asynchronous lainnya dalam langkah kedua dari kode di atas. Jika Anda menggunakan fungsi count(), yang mengembalikan Future, eksekusinya tidak akan memblokir kode lainnya.
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 4".
+
+> Selesai.
 
 ## Praktikum 3
 
