@@ -110,7 +110,21 @@
 
 ### Hasil Praktikum 6
 
+> ![Hasil Praktikum 6](./docs/hasil%20praktikum%206.gif)
 
+**Soal 11**
+- Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+> ![Soal 11](./docs/soal_11.png)
+
+**Soal 12**
+- Jika Anda tidak melihat animasi loading tampil, kemungkinan itu berjalan sangat cepat. Tambahkan delay pada method getPosition() dengan kode await Future.delayed(const Duration(seconds: 3));
+> Sudah ditambahkan animasi loading selama 3 detik.
+
+- Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
+> Geolocator support untuk browser, sehingga bisa mendapatkan koordinat lokasi sendiri
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 12".
+> Selesai.
 
 ## Praktikum 7
 
