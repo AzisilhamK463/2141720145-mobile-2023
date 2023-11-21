@@ -38,7 +38,7 @@
 
 ### Hasil Praktikum 2
 
-> ![Hasil Praktikum 1](./docs/hasil%20praktikum%202.gif)
+> ![Hasil Praktikum 2](./docs/hasil%20praktikum%202.gif)
 
 **Soal 4**
 - Jelaskan maksud kode langkah 1 dan 2 tersebut!
@@ -58,7 +58,21 @@
 
 ### Hasil Praktikum 3
 
+> ![Hasil Praktikum 3](./docs/hasil%20praktikum%203.gif)
 
+**Soal 5**
+- Jelaskan maksud kode langkah 2 tersebut!
+> Variabel completer: Variabel late dari tipe Completer, variabel ini digunakan untuk menyimpan hasil perhitungan angka 42. Method  getNumber() mengembalikan nilai dari variabel completer dalam dua langkah: pertama, mengaktifkan variabel completer dengan nilai baru; kedua, memanggil metode calculate() untuk menghitung angka 42. Metode calculate() menggunakan Future.delayed() untuk menunggu 5 detik sebelum menghitung angka 42.
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 5".
+> Selesai.
+
+**Soal 6**
+- Jelaskan maksud perbedaan kode langkah 2 dengan langkah 5-6 tersebut!
+> Pada langkah 5, kita mengubah isi dari method calculate(). Sebelumnya, metode ini menggunakan await Future.delayed(const Duration(seconds: 5)); untuk menunggu 5 detik untuk menyelesaikan perhitungan angka 42. Namun, metode ini tidak menangani kesalahan yang mungkin terjadi saat menunggu 5 detik. Sebaliknya, kode ini menggunakan try/catch untuk menangani kesalahan yang mungkin terjadi saat menunggu 5 detik. Jika tidak ada kesalahan, metode ini akan menggunakan metode completer.complete() untuk menyelesaikan perhitungan dan mengembalikan nilai 42 ke variabel completer. Jika ada kesalahan, metode ini akan menggunakan metode completer.completeError() untuk menyelesaikan perhitungan dan mengembalikan nilai {} ke variabel completer.
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 6".
+> Selesai.
 
 ## Praktikum 4
 
