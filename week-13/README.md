@@ -8,6 +8,8 @@
 
 ### Hasil Praktikum
 
+![Hasil Praktikum](./docs/hasil_praktikum1.gif)
+
 ### Soal
 
 **Soal 1**
