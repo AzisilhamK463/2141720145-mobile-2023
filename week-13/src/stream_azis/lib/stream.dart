@@ -7,7 +7,12 @@ class ColorStream {
     Colors.amber,
     Colors.deepPurple,
     Colors.lightBlue,
-    Colors.teal
+    Colors.teal,
+    Colors.tealAccent,
+    Colors.deepOrange,
+    Colors.deepOrangeAccent,
+    Colors.deepPurpleAccent,
+    Colors.greenAccent
   ];
 
   Stream<Color> getColors() async* {

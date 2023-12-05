@@ -20,3 +20,10 @@
 > ![SS Praktikum](./docs/soal1.png)
 - Lakukan commit hasil jawaban Soal 1 dengan pesan "W13: Jawaban Soal 1"
 > Selesai
+
+**Soal 2**
+
+- Tambahkan 5 warna lainnya sesuai keinginan Anda pada variabel colors tersebut.
+> ![SS Praktikum](./docs/soal2.png)
+- Lakukan commit hasil jawaban Soal 2 dengan pesan "W13: Jawaban Soal 2"
+> Selesai
