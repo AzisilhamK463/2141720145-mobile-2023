@@ -177,3 +177,19 @@ Untuk membuat sebuah widget, StreamBuilder menggunakan data dari numberStream, y
 - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 12".
 > Selesai
 
+# Praktikum 7
+
+### Hasil Praktikum
+
+![Hasil Praktikum](./docs/hasil_praktikum7.gif)
+
+**Soal 13**
+
+- Jelaskan maksud praktikum ini ! Dimanakah letak konsep pola BLoC-nya ?
+> jawaban: Dua StreamController dimiliki oleh RandomNumberBloc pada random_bloc. _generateRandomController berfungsi sebagai penerima perintah untuk menghasilkan angka acak, dan _randomNumberController mengirimkan angka acak ke tampilan UI. Saat _generateRandomController menerima trigger atau event, blok tersebut memproses event tersebut menggunakan Random().
+
+> Pada file random_screen, RandomScreen menampilkan angka acak yang diterima dari RandomNumberBloc. Kemudian, RandomScreen menggunakan StreamBuilder untuk membangun tampilan yang terhubung ke stream _bloc.randomNumber. Ini memungkinkan UI secara otomatis diperbarui ketika ada perubahan data di dalam stream, sehingga teks dengan angka acak selalu terupdate sesuai dengan nilai terbaru yang diterima dari stream. Proses pengacakan angka dimulai dengan tombol Action Floating. Setelah menekan tombol ini, onPressed akan mengirimkan perintah melalui generateRandom.add(null) ke _generateRandomController pada BLoC. Ini akan memulai pembuatan angka acak dan mengirimkannya kembali ke UI melalui stream. 
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+> Selesai
+- Lalu lakukan commit dengan pesan "W13: Jawaban Soal 13".
+> Selesai
