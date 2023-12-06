@@ -157,3 +157,22 @@
 > Selesai
 - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 10,11".
 > Selesai
+
+# Praktikum 6
+
+### Hasil Praktikum
+
+![Hasil Praktikum](./docs/hasil_praktikum5.gif)
+
+**Soal 12**
+
+- Jelaskan maksud kode pada langkah 3 dan 7 !
+> Langkah 3:
+Metode getNumber menggunakan Stream.periodic untuk membuat aliran bilangan bulat dalam waktu 1 detik. Sebuah bilangan acak antara 0 dan 9 dibuat menggunakan Random, dan kemudian dikirimkan ke aliran dengan bantuan yield* async* untuk menghasilkan aliran dari nilai-nilai yang diberikan.
+
+> Langkah 7:
+Untuk membuat sebuah widget, StreamBuilder menggunakan data dari numberStream, yang dihasilkan dari getNumber() pada NumberStream. Selama ada snapshot.hasData, widget akan menampilkan teks yang mengandung nilai data tersebut. Kita hanya mencetak pesan "Error!" tanpa menampilkan konten apa pun jika terjadi error; jika tidak ada data, kita kembalikan widget yang tidak terlihat. Ini memungkinkan tampilan untuk mengubah data yang diterima dari aliran dan membuat tampilan yang sesuai dengan kondisi aliran.
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+> Selesai
+- Lalu lakukan commit dengan pesan "W13: Jawaban Soal 12".
+> Selesai
