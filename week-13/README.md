@@ -133,3 +133,7 @@
 > Selesai
 - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 9".
 > Selesai
+
+#### Hasil dari menekan button ‘Stop Subscription'
+
+![Hasil Praktikum](./docs/ss_hasil_prk4.png)
