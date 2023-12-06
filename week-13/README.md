@@ -162,7 +162,7 @@
 
 ### Hasil Praktikum
 
-![Hasil Praktikum](./docs/hasil_praktikum5.gif)
+![Hasil Praktikum](./docs/hasil_praktikum6.gif)
 
 **Soal 12**
 
@@ -176,3 +176,4 @@ Untuk membuat sebuah widget, StreamBuilder menggunakan data dari numberStream, y
 > Selesai
 - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 12".
 > Selesai
+
