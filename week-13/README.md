@@ -73,7 +73,34 @@
 **Soal 6**
 
 - Jelaskan maksud kode langkah 8 dan 10 tersebut!
-> 
-- Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+> Langkah 8: Saat widget pertama kali dibuat, metode initState() dipanggil. Pada langkah ini, kode membuat dua objek: objek    NumberStream dan objek StreamController. Objek StreamController menangani aliran data yang dikeluarkan oleh NumberStream. Aliran kemudian didengarkan, dan metode setState() digunakan setiap kali peristiwa baru dikeluarkan. Ini melakukan pekerjaannya untuk memastikan bahwa widget diperbarui setiap kali menerima nomor terbaru.
 
+> Langkah 10 : Metode addRandomNumber() membuat objek Random dan kemudian memanggil metode nextInt() untuk mendapatkan nomor acak antara 0 dan 9, kemudian metode addNumberToSink() digunakan untuk menambahkan nomor acak ke aliran data.
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+> Selesai
 - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 6".
+> Selesai
+
+**Soal 7**
+
+- Jelaskan maksud kode langkah 13 sampai 15 tersebut!
+> Langkah 13 adalah menambah metode addError() ke kelas Stream. Metode ini memungkinkan penambahan error ke stream.
+
+> Langkah 15 adalah memodifikasi metode addRandomNumber(). Kita kemudian membahas dua baris kode yang digunakan untuk menambahkan angka acak ke aliran, dan kemudian menambahkan kode baru untuk menambahkan error ke aliran.
+- Kembalikan kode seperti semula pada Langkah 15, comment addError() agar Anda dapat melanjutkan ke praktikum 3 berikutnya.
+> ![Hasil Praktikum](./docs/soal7.png)
+- Lalu lakukan commit dengan pesan "W13: Jawaban Soal 7".
+> Selesai
+
+#### Hasil modifikasi praktikum 2
+
+![Hasil Praktikum](./docs/hasil_praktikum2(1).gif)
+
+# Praktikum 3
+
+### Hasil Praktikum
+
+![Hasil Praktikum](./docs/hasil_praktikum3.gif)
+
+**Soal 8**
+
