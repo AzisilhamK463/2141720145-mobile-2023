@@ -27,3 +27,12 @@
 > ![SS Praktikum](./docs/soal2.png)
 - Lakukan commit hasil jawaban Soal 2 dengan pesan "W13: Jawaban Soal 2"
 > Selesai
+
+**Soal 3**
+
+- Jelaskan fungsi keyword yield* pada kode tersebut!
+> Keyword yield* memiliki fungsi untuk menghasilkan nilai dari stream Stream.periodic, sedangkan Keyword yield* juga dapat menghasilkan nilai dari stream lain atau iterable.
+- Apa maksud isi perintah kode tersebut?
+> Isi perintah kode ini adalah untuk membuat Stream warna yang berubah setiap satu detik. Ini dilakukan dengan menghasilkan nilai dari stream Stream.periodic, yang menghasilkan nilai integer setiap detik, yang kemudian digunakan untuk menentukan indeks warna.
+- Lakukan commit hasil jawaban Soal 3 dengan pesan "W13: Jawaban Soal 3"
+> Selesai
