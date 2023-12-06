@@ -137,3 +137,23 @@
 #### Hasil dari menekan button ‘Stop Subscription'
 
 ![Hasil Praktikum](./docs/ss_hasil_prk4.png)
+
+# Praktikum 5
+
+### Hasil Praktikum
+
+![Hasil Praktikum](./docs/hasil_praktikum5.gif)
+
+**Soal 10**
+
+- Jelaskan mengapa error itu bisa terjadi ?
+> Kesalahan ini terjadi ketika mencoba menambahkan atau membuat dua langganan pada stream yang sama tanpa membatalkan langganan sebelumnya. Ini terjadi ketika inisialisasi langganan2 pada metode initState(), karena inisialisasi langganan sudah ada untuk menangani stream yang sama pada saat yang sama.
+
+**Soal 11**
+
+- Jelaskan mengapa hal itu bisa terjadi ?
+> Dua angka acak yang sama akan dihasilkan saat Anda menekan tombol "New Random Number". Angka-angka tersebut berasal dari aliran yang disebut oleh objek aliran dan aliran2. Aliran akan mengembalikan nilai berupa peristiwa (angka acak) yang dipisahkan dengan tanda "-". Saat tombol "Stop Stream" ditekan, aliran akan menghentikan langganan aliran terhadap aliran, sehingga aliran tidak lagi dapat mengeluarkan output meskipun menekan tombol "New Random Number".
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+> Selesai
+- Lalu lakukan commit dengan pesan "W13: Jawaban Soal 10,11".
+> Selesai
