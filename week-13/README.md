@@ -104,3 +104,13 @@
 
 **Soal 8**
 
+- Jelaskan maksud kode langkah 1-3 tersebut!
+> Langkah 1: Memasukkan variabel transformasi ke dalam class _StreamHomePageState. Variabel ini akan digunakan untuk menyimpan objek transformasi angin.
+
+> Langkah 2: Tambahkan kode untuk membuat objek StreamTransformer. Ini akan mengubah data yang diterima dari aliran. Dalam kasus ini, data akan diubah menjadi integer yang dikalikan dengan 10.
+
+> Langkah 3: Menambah kode untuk mengedit kode di initState(). Ini akan menggunakan objek transformer untuk mengubah data yang diterima dari stream.
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+> Selesai
+- Lalu lakukan commit dengan pesan "W13: Jawaban Soal 8".
+> Selesai
