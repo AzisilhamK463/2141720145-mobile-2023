@@ -36,3 +36,10 @@
 > Isi perintah kode ini adalah untuk membuat Stream warna yang berubah setiap satu detik. Ini dilakukan dengan menghasilkan nilai dari stream Stream.periodic, yang menghasilkan nilai integer setiap detik, yang kemudian digunakan untuk menentukan indeks warna.
 - Lakukan commit hasil jawaban Soal 3 dengan pesan "W13: Jawaban Soal 3"
 > Selesai
+
+**Soal 4**
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+> Selesai
+- Lakukan commit hasil jawaban Soal 4 dengan pesan "W13: Jawaban Soal 4"
+> Selesai
