@@ -114,3 +114,22 @@
 > Selesai
 - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 8".
 > Selesai
+
+# Praktikum 4
+
+### Hasil Praktikum
+
+![Hasil Praktikum](./docs/hasil_praktikum4.gif)
+
+**Soal 9**
+
+- Jelaskan maksud kode langkah 2, 6 dan 8 tersebut!
+> Langkah 2: Masukkan kode yang akan membuat objek NumberStream dan NumberStreamController. Objek NumberStream akan menghasilkan stream integer secara acak, dan objek NumberStreamController akan mengontrol stream tersebut.
+
+> Langkah 6: Memasukkan kode pembatalan subscription di dispose(). Ini dilakukan untuk mencegah hilangnya memori.
+
+> Langkah 8: Melibatkan penambahan kode untuk menentukan apakah aliran telah ditutup sebelum menambahkan data. Jika aliran telah ditutup, nilai variabel lastNumber akan diubah menjadi nilai -1.
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+> Selesai
+- Lalu lakukan commit dengan pesan "W13: Jawaban Soal 9".
+> Selesai
