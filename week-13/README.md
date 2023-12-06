@@ -48,10 +48,32 @@
 
 - Jelaskan perbedaan menggunakan listen dan await for (langkah 9) !
 > Listen:
-> 1. Sifat Sinkron-Asinkron: Metode listen bersifat asinkron, artinya program dapat melanjutkan ke baris kode berikutnya tanpa menunggu pengiriman data ke stream selesai. 
+ 1. Sifat Sinkron-Asinkron: Metode listen bersifat asinkron, artinya program dapat melanjutkan ke baris kode berikutnya tanpa menunggu pengiriman data ke stream selesai. 
 
-> 2. Pengendalian Fleksibel: Metode mendengarkan memungkinkan eksekusi program untuk memilih pengendali fungsi yang akan dijalankan setiap kali ada perubahan pada aliran. 
+ 2. Pengendalian Fleksibel: Metode mendengarkan memungkinkan eksekusi program untuk memilih pengendali fungsi yang akan dijalankan setiap kali ada perubahan pada aliran. 
 
-> 3. Non-bloking: Jika metode mendengarkan digunakan, program dapat melanjutkan ke baris kode berikutnya tanpa harus menunggu pengiriman data ke stream selesai.
+ 3. Non-bloking: Jika metode mendengarkan digunakan, program dapat melanjutkan ke baris kode berikutnya tanpa harus menunggu pengiriman data ke stream selesai.
+
+> Await for:
+ 1. Sifat Sinkron: Metode menunggu adalah sinkron, yang berarti eksekusi program akan menunggu hingga data tersedia di aliran sebelum melanjutkan ke baris kode berikutnya.
+
+ 2. Penggunaan Iterator: Menunggu untuk mendapatkan nilai dari aliran berbeda dengan menggunakan iterator.
+
+ 3. Blokasi: Dengan menggunakan await for, eksekusi program akan diblokir sampai data tersedia di aliran atau aliran ditutup.
+
 - Lakukan commit hasil jawaban Soal 5 dengan pesan "W13: Jawaban Soal 5"
 > Selesai
+
+# Praktikum 2
+
+### Hasil Praktikum
+
+![Hasil Praktikum](./docs/hasil_praktikum2(0).gif)
+
+**Soal 6**
+
+- Jelaskan maksud kode langkah 8 dan 10 tersebut!
+> 
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+
+- Lalu lakukan commit dengan pesan "W13: Jawaban Soal 6".
